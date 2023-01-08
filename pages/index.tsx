@@ -41,7 +41,11 @@ export default function Home() {
             backgroundColor: "#EEF0F2",
             height: "95vh",
             margin: "10vh 0 0 0",
-            backgroundImage: 'URL("/images/landing_section_bg.png")',
+            backgroundImage: `URL("${
+              settings?.landingBackground?.asset?.url
+                ? settings.landingBackground.asset.url
+                : "/images/landing_section_bg.png"
+            }")`,
             backgroundSize: "cover",
           }}
         >
