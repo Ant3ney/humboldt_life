@@ -54,7 +54,7 @@ export default function DirectionSnackbar() {
         href="#outlined-buttons"
         onClick={() => {
           //@ts-ignore
-          window.location = "https://google.com";
+          window.location = "https://humboldt-cms.netlify.app";
         }}
         color="success"
       >
